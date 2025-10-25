@@ -1,9 +1,11 @@
 *
 
+!.vscode/launch.json
+!template/in01.txt
+!template/in02.txt
+!template/template.go
 !.gitignore
-!*.md
-!*.go
-!*.txt
 !Makefile
+!README.md
 
 !*/
