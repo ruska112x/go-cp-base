@@ -21,10 +21,10 @@ func main() {
 	}
 
 	for i, v := range array {
+		fmt.Printf("%v", v)
 		if i+1 != n {
-			fmt.Printf("%v ", v)
-		} else {
-			fmt.Printf("%v", v)
+			fmt.Print(" ")
 		}
 	}
+	fmt.Println()
 }
