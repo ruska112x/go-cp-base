@@ -1,4 +1,5 @@
-TESTNUM = 01
+PROG ?= template
+TESTNUM ?= 01
 
 run:
 	go build -o $(PROG).x -compiler gc $(PROG)/$(PROG).go && \
